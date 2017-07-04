@@ -41,7 +41,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        WilddogOptions options = new WilddogOptions.Builder().setSyncUrl("https://3245.wilddogio.com").build();
+        WilddogOptions options = new WilddogOptions.Builder().setSyncUrl("wilddog website").build();
         WilddogApp.initializeApp(this, options);
         mAuth = WilddogAuth.getInstance();
         mForgetPwdBtn = (Button) findViewById(R.id.forget_pwd_cb);
